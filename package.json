@@ -6,7 +6,8 @@
   "scripts": {
     "create-topic": "tsx src/topic.ts",
     "listen" : "tsx src/listen.ts",
-    "publish": "tsx src/message.ts"
+    "publish": "tsx src/message.ts",
+    "list": "tsx src/list.ts"
   },
   "author": "",
   "license": "MIT",
