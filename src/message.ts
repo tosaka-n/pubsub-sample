@@ -5,7 +5,7 @@ const pubSubClient = new PubSub({
   projectId: "test-project", // プロジェクトIDを指定
 });
 
-async function publishMessage(topicName: string, message: string) {
+const publishMessage = async (topicName: string, message: string) => {
   const dataBuffer = Buffer.from(message);
 
   try {
