@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "module": "ESNext",
+    "types": [],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "moduleResolution": "node",
+  },
+  "exclude": ["node_modules"]
+}
