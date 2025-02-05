@@ -1,0 +1,19 @@
+{
+  "name": "pubsub-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-topic": "tsx src/topic.ts",
+    "listen" : "tsx src/listen.ts",
+    "publish": "tsx src/message.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/pubsub": "^4.10.0",
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2"
+  }
+}
